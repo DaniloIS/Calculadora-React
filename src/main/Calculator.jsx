@@ -49,8 +49,8 @@ export default class Calculator extends Component {
                 operation: equals ? null : operation,
                 current: equals ? 0 : 1,
                 clearDisplay: !equals,
-                values: 
-            });
+                values
+            })
         }
     }
 
